@@ -1,4 +1,4 @@
-public class Main {
+public class ReferToObject {
 
 	public static void main(String [] args) {
 		Rock rock = new Rock();
