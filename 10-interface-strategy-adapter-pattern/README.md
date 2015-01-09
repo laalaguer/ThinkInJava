@@ -45,4 +45,4 @@ class AppleAdapter implements Apple{
 	void peel(){ o.peel();}
 }
 ```
-Delegation is used here to let `AppleAdapter` works just like `Apple`.
+Delegation is used here to let `AppleAdapter` works just like `Apple`. see `09-composing-delegation-inheritance`
