@@ -46,3 +46,13 @@ public class RandomReadable implements Readable{
 			System.out.println(s.next());
 	}
 }
+
+/* output would be like this:
+OUJSIYZPEV
+RUFLHBBLXZ
+NJXHNDOUEX
+NKTLLMRXNT
+GPTCMAIDLA
+SWEJMLAXFM
+REMTDRTEAD
+*/
