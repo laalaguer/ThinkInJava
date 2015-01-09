@@ -46,3 +46,13 @@ class AppleAdapter implements Apple{
 }
 ```
 Delegation is used here to let `AppleAdapter` works just like `Apple`. see `09-composing-delegation-inheritance`
+
+# `RandomReadable.java`
+
+This is an example. If you want a class to work with Scanner (java.util.Scanner) class,
+then you have to make it implementing Readable (java.lang.Readable) interface.
+it shall always implement a method called
+```java
+int read(CharBuffer cb); // java.nio.CharBuffer
+```
+return `int` is the character you send into `cb`, and content of `cb` will be read by Scanner object.
