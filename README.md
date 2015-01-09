@@ -12,4 +12,6 @@ Thinking in Java notes of examples. Important examples of Java language.
 07-package-path // Customize a library and access it by specify the package path.
 08-constructor-inheritance // how constructor is called in inherited class.
 09-composing-delegation-inheritance // three major concept in Java world.
+10-interface-strategy-adapter-pattern // Strategy and Adapter pattern, realized by java interface.
+11-inner-class // Advanced feature "Inner class" shall know by every Java developer.
 ```
