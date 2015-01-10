@@ -17,8 +17,13 @@ Then GUI framework will send `events` to `Buttons`, `TextField` and other compon
 resigtered onto the framework already. These components will respond to `event`s.
 
 Let's see an example of a control framework.
+
 `Event.java` describes events. It is abstract.
+
 `ControlFramework.java` describes a generic control framework which will have system inputs, and trigger events.
 Above two are quite generic.
-`WaterControlFramework.java` describes a framework specialized for watering the plants.
+
+`SmartPhoneControlFramework.java` describes a framework specialized for the smartphone, it defines events to be used.
+You can see that events can trigger each other.
+
 `ClientProgram.java` describes a program that client writes, to run a demo example.
