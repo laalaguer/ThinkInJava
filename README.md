@@ -14,4 +14,5 @@ Thinking in Java notes of examples. Important examples of Java language.
 09-composing-delegation-inheritance // three major concept in Java world.
 10-interface-strategy-adapter-pattern // Strategy and Adapter pattern, realized by java interface.
 11-inner-class // Advanced feature "Inner class" shall know by every Java developer.
+12-control-framework // How to build an event-driven, control framework?
 ```
