@@ -35,7 +35,7 @@ public class TryCollection{
 		anotherList.add(new Apple());
 		anotherList.add(new Apple());
 		c.addAll(anotherList);
-		Collections.addAll(c, new Apple(), new Apple());
+		Collections.addAll(c, new Apple(), new Apple()); // this runs faster then the object method.
 		System.out.println("now c size is? " + c.size());
 		c.removeAll(anotherList);
 		System.out.println("now c size back to? " + c.size());
