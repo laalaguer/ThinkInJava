@@ -8,16 +8,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
-class Apple{
-	static int number = 0 ;
-	public int myNumber = 0;
-	public Apple() {
-		myNumber = number;
-		number ++;
-	}
-	public String toString() { return "Apple " + myNumber;}
-}
-
 
 public class TryList{
 	public static void print(Object o){
@@ -48,7 +38,9 @@ public class TryList{
 		// seems modify will create a mutual effect on both apple lists.
 		myCopy.clear(); // Method of Collections. Clear all elements in copy list.
 		// Does clear() affect original apples? No. It just delete all reference to apples in one list.
-		print("Original apples: " + apples); 
+		print("Original apples: " + apples);
+		apples.removeAll(apples);
+		print("we removed all elements in apples, from apples, :D " + apples);
 
 	}
 	
@@ -64,4 +56,5 @@ Copied Apples: [Apple 0, Apple 1, Apple 2, Apple 3, Apple 10, Apple 4, Apple 5,A
 Copied Apples [1] is the same object of apples [1]? true
 if i modify copy apple [1] to Apple 999, then original apple [1] is: Apple 999
 Original apples: [Apple 0, Apple 999, Apple 2, Apple 3, Apple 10, Apple 4, Apple 5, Apple 6, Apple 7, Apple 8, Apple 9]
+we removed all elements in apples, from apples, :D []
 */
