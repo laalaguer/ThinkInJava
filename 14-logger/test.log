@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="GBK" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2015-01-13T19:33:08</date>
+  <millis>1421170388328</millis>
+  <sequence>0</sequence>
+  <logger>TryLogger</logger>
+  <level>INFO</level>
+  <class>TryLogger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start logging...</message>
+</record>
+<record>
+  <date>2015-01-13T19:33:08</date>
+  <millis>1421170388375</millis>
+  <sequence>1</sequence>
+  <logger>TryLogger</logger>
+  <level>SEVERE</level>
+  <class>TryLogger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hey, go wrong.</message>
+  <exception>
+    <message>java.lang.Exception: Hey, go wrong.</message>
+    <frame>
+      <class>TryLogger</class>
+      <method>main</method>
+      <line>18</line>
+    </frame>
+  </exception>
+</record>
+</log>
+一月 13, 2015 7:34:23 下午 TryLogger main
+信息: Start logging...
+一月 13, 2015 7:34:23 下午 TryLogger main
+严重: Hey, go wrong.
+java.lang.Exception: Hey, go wrong.
+	at TryLogger.main(TryLogger.java:19)
+
