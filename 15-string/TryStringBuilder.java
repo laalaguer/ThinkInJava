@@ -1,3 +1,9 @@
+/** Most important methods of StringBuilder is:
+  * .append()
+  * .toString()
+  * .delete(int start, int end); // end is excluded.
+  * .reverse().toString(); // reverse the whole string and output it.
+*/
 public class TryStringBuilder{
 	public static void main (String [] args){
 		// Ok, StringBuilder will modify the original string.
@@ -22,7 +28,7 @@ public class TryStringBuilder{
 		StringBuilder sb = new StringBuilder();
 		sb.append("[");
 		for (Object o : args){
-			sb.append(o.toString());
+			sb.append(o.toString()); // This is universally appliable.
 			sb.append(",");
 			sb.append(" ");
 		}
