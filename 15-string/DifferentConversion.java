@@ -43,6 +43,5 @@ public class DifferentConversion{
 		f.format("Day of Month is %td%n", d); // day 21
 
 		f.format("%tH:%tM%n",d,d); // 12:33
-
 	}
 }
