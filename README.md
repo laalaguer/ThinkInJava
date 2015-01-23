@@ -15,4 +15,7 @@ Thinking in Java notes of examples. Important examples of Java language.
 10-interface-strategy-adapter-pattern // Strategy and Adapter pattern, realized by java interface.
 11-inner-class // Advanced feature "Inner class" shall know by every Java developer.
 12-control-framework // How to build an event-driven, control framework?
+13-collections-iterator // How to interate on the collection
+14-logger // under construction
+15-string // String operations and advanced String operations via RegularExpression.
 ```
