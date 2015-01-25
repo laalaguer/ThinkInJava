@@ -25,7 +25,8 @@ public class Play{
         Class bus = returnClass("Bus");
         if (bus != null){
             info(bus);
-			Object o = returnObject(bus); // this line will work.
+			Object o = returnObject(bus); // will work.
+			System.out.println("bus class object instantiated, return class is: " + o.getClass());
         }
         Class car = returnClass("Car");
         if (car != null){
@@ -99,6 +100,7 @@ java.lang.InstantiationException: Shape
 Class Name: Bus, is Interface? false 
 This is Viechle
 This is bus.
+bus class object instantiated, return class is: class Bus
 Class Name: Car, is Interface? false 
 java.lang.IllegalAccessException: Class Play can not access a member of class Car with modifiers "private"
 */
