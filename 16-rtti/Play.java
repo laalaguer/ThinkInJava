@@ -1,3 +1,7 @@
+/* You may encounter two problems when trying to call instantiation of an object.
+   1. InstantiationException : you may feed wrong parameters into the constructor.
+   2. IllegalAccessException : the constructor might me private, so you cannot call it.
+*/
 public class Play{
 	public static void main(String [] args){
 
