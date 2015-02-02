@@ -18,3 +18,12 @@ Condition is like this:
 4. We call the emulation API during runtime. (When app is loaded onto cell phone)
 5. We use the feature in cell phone app.
 ```
+
+# In This Folder
+
+You shall first look at `Play.java` to get a general idea about how to use RTTI to get information about a class.
+Like how to get class methods. How to construct an object based on the class information.
+
+Then you can go to `ClassExtractor.java` to see how to get list of methods about a class that you dont know anything about.
+
+Last you can read the `DynamicProxy.java` to see the functionality of proxing a already made class. This proxy will time the funtion time.
